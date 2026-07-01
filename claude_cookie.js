@@ -20,7 +20,7 @@ if (typeof $response === "undefined") {
       .filter(
         x =>
           !x.startsWith("sessionKey=") &&
-          !x.startsWith("routingHint=")
+          !x.startsWith("routingHint==")
       )
       .join("; ");
 
